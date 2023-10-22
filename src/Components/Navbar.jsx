@@ -3,7 +3,7 @@ import navlogo from "../assets/navlogo.png"
 export default function Navbar() {
   return (
  <>
-   <nav className=" w-full">
+   <nav className=" w-full absolute z-10 bg-white">
     <div className="container m-auto px-6 md:px-12 lg:px-7">
       <div className="flex flex-wrap items-center justify-between py-6 gap-6 md:py-4 md:gap-0 relative">
         <input

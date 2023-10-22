@@ -22,12 +22,17 @@
     // }
   }
 
-  .mask{
+  .mask {
     mask-image: url('../Mask//mask.svg');
     mask-repeat: no-repeat;
     mask-size: 50px;
     background: black;
     position: absolute;
     color: black;
+    transition: mask-size 0.6s ease; /* Add a transition for mask-size */
+  }
+  
+  .mask:hover {
+    mask-size: 300px; /* Increase the mask size when hovered */
   }
 }
