@@ -9,7 +9,7 @@ export default function ContactUs() {
   <div className="flex my-20 items-center justify-start bg-white">
     <div className="mx-auto w-full max-w-lg">
       <h1 className="text-4xl font-medium">Lets Connect</h1>
-      <p className="mt-3">Email us at help@domain.com or message us here:</p>
+      <p className="mt-3"></p>
       <form action="https://api.web3forms.com/submit" className="mt-10">
         {/* This is a working contact form. 
    Get your free access key from: https://web3forms.com/  */}
