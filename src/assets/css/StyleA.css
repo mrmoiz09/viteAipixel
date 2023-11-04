@@ -1,0 +1,11 @@
+.fade-in {
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 1.2s, filter 1.2s;
+  }
+  
+  .fade-in.animate {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  
