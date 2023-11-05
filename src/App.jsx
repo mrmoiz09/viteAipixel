@@ -10,7 +10,8 @@ import ContactUs from "./Pages/Home/ContactUs";
 import Footer from "./Components/Footer";
 export default function App() {
   return (
-    <>
+    <> 
+    
       <Navbar />
       <ParallaxProvider>
         <HeroMain />
