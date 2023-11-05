@@ -6,6 +6,6 @@ html {
     --cursor-color: #333
   }
   
-  html.dark-mode {
+  html.shark-mode {
     --cursor-color: #fff
   }
