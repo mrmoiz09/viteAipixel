@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
       
       </div>
-      <div className="mt-16 grid grid-cols-1 gap-8 border-t border-gray-100 pt-16 md:grid-cols-4 lg:grid-cols-6">
+      <div className="mt-4 grid grid-cols-1 gap-8 border-t border-gray-100 pt-16 md:grid-cols-4 lg:grid-cols-6">
         <div className="text-center sm:text-left">
           <p className="text-lg font-medium text-gray-900">About Us</p>
           <ul className="mt-8 space-y-4 text-sm">

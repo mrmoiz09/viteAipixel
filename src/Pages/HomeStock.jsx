@@ -1,3 +1,5 @@
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 import HeroMain from "../Pages/Home/Hero/HeroMain";
 import HAboutus from "./Home/AboutUSHome/HAboutus";
 import ContactUs from "./Home/ContactUs";
@@ -9,6 +11,8 @@ import ReviewLogo from "./Home/Stats/ReviewLogo";
 export default function HomeStock() {
   return (
     <>
+    <Navbar/>
+
       <HeroMain />
       <HAboutus />
       <SkillGraph />
@@ -16,6 +20,7 @@ export default function HomeStock() {
       <LeadingProjects />
       <ReviewLogo />
       <ContactUs />
+      <Footer/>
     </>
   );
 }

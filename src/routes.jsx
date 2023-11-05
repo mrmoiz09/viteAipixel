@@ -4,36 +4,29 @@ import {
   Route,
   createRoutesFromElements,
   RouterProvider,
+  BrowserRouter,
 } from "react-router-dom";
 import HomeStock from "./Pages/HomeStock";
 import AboutStock from "./Pages/AboutStock";
-import About from "./Layout/About";
-import Work from "./Layout/Work";
 import WorkStock from "./Pages/WorkStock";
 
 const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route>
-      <Route path="/" element={<Main />}>
-        <Route index element={<HomeStock />} />
+  <BrowserRouter basename="/">
+    {createRoutesFromElements(
+      <Route>
+        <Route path="/" element={<HomeStock />} />
+        <Route path="aboutus" element={<AboutStock />} />
+        <Route path="ourwork" element={<WorkStock />} />
       </Route>
-
-      <Route path="aboutus" element={<About />}>
-        <Route index element={<AboutStock />} />
-      </Route>
-
-      <Route path="ourwork" element={<Work />}>
-        <Route index element={<WorkStock />} />
-      </Route>
-    </Route>
-  )
+    )}
+  </BrowserRouter>
 );
 
 function Routes() {
   return (
-    <>
+    <Main>
       <RouterProvider router={router} />
-    </>
+    </Main>
   );
 }
 

@@ -1,3 +1,5 @@
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 import AboutA from "./About/Static/AboutA";
 
 // import AboutB from "./About/Static/OurVision";
@@ -7,6 +9,9 @@ import OurVision from "./About/Static/OurVision";
 export default function AboutStock() {
   return (
     <>
+
+<Navbar/>
+
       <AboutA />
       <OurVision />
       <h2 className="flex flex-row flex-nowrap items-center my-6">
@@ -21,6 +26,7 @@ export default function AboutStock() {
         <span className="flex-grow block border-t border-black" />
       </h2>
       <Aboutstats />
+      <Footer/>
     </>
   );
 }
