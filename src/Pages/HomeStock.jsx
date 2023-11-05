@@ -16,7 +16,6 @@ export default function HomeStock() {
       <LeadingProjects />
       <ReviewLogo />
       <ContactUs />
-      
     </>
   );
 }

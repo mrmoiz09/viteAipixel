@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 export default function SkillGraph() {
-
   const [refs, inViews] = useInView({
     threshold: 0.2,
   });
@@ -80,13 +79,16 @@ export default function SkillGraph() {
                     </p>
                   </div>
                 </motion.div>
-                <motion.div 
-                
-                initial={{ opacity: 0, y: 50, filter: 'blur(5px)' }}
-                animate={{ opacity: inViews ? 1 : 0, y: inViews ? 0 : 50, filter: inViews ? 'blur(0px)' : 'blur(5px)' }}
-                transition={{ duration: 0.7, ease: 'easeOut' }}
-                
-                className="pt-4 flex gap-4 md:items-center">
+                <motion.div
+                  initial={{ opacity: 0, y: 50, filter: "blur(5px)" }}
+                  animate={{
+                    opacity: inViews ? 1 : 0,
+                    y: inViews ? 0 : 50,
+                    filter: inViews ? "blur(0px)" : "blur(5px)",
+                  }}
+                  transition={{ duration: 0.7, ease: "easeOut" }}
+                  className="pt-4 flex gap-4 md:items-center"
+                >
                   <div className="w-12 h-12 flex gap-4 rounded-full bg-teal-100 shark:bg-teal-900/20">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +105,7 @@ export default function SkillGraph() {
                   </div>
                   <div className="w-5/6">
                     <h4 className="font-semibold text-lg text-gray-700 shark:text-teal-300">
-                      text here 
+                      text here
                     </h4>
                     <p className="text-gray-500 shark:text-gray-400">
                       Asperiores nemo possimus nesciunt quam mollitia.

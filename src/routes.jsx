@@ -25,7 +25,6 @@ const router = createBrowserRouter(
       <Route path="ourwork" element={<Work />}>
         <Route index element={<WorkStock />} />
       </Route>
-
     </Route>
   )
 );
