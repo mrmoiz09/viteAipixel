@@ -1,9 +1,11 @@
 
+import { Link } from "react-router-dom"
 import navlogo from "../assets/navlogo.png"
+// Link
 export default function Navbar() {
   return (
  <>
-   <nav className=" w-full absolute z-10 bg-white">
+   <nav className=" w-full absolute z-10 bg-white sticky top-0">
     <div className="container m-auto px-6 md:px-12 lg:px-7">
       <div className="flex flex-wrap items-center justify-between py-6 gap-6 md:py-4 md:gap-0 relative">
         <input
@@ -13,7 +15,7 @@ export default function Navbar() {
           className="peer hidden"
         />
         <div className="w-full flex justify-between md:w-max md:px-0">
-          <a href="#" aria-label="logo">
+          <Link to="/" aria-label="logo">
             <img
               src={navlogo}
               className="w-[5rem] grayscale "
@@ -21,7 +23,7 @@ export default function Navbar() {
               width={144}
               height={68}
             />
-          </a>
+          </Link>
           <div className="flex items-center md:hidden max-h-10">
             <label
               role="button"
@@ -77,7 +79,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a href="#" className="block md:px-3 group">
+                <Link to="ourwork" className="block md:px-3 group">
                   <div
                     className="relative text-gray-600
                                               before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left shark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100"
@@ -86,10 +88,10 @@ export default function Navbar() {
                       Our work
                     </span>
                   </div>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="block md:px-3 group">
+                <Link to="aboutus" className="block md:px-3 group">
                   <div
                     className="relative text-gray-600
                                               before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left shark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800 before:transition before:scale-x-0 group-hover:before:scale-x-100"
@@ -98,7 +100,7 @@ export default function Navbar() {
                       About us
                     </span>
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

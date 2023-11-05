@@ -1,18 +1,38 @@
 
+import { motion } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
+
 
 export default function ContactUs() {
+
+
+
+
+  const [ref, inView] = useInView({
+    threshold: 0.2, 
+  });
+
   return (
    <>
    
    <>
-  {/* Tailwind Play: https://play.tailwindcss.com/qIqvl7e7Ww  */}
-  <div className="flex my-20 items-center justify-start bg-white">
-    <div className="mx-auto w-full max-w-lg">
+  <div
+  
+
+  className="flex my-20 items-center justify-start bg-white" ref={ref}>
+    <motion.div
+    
+    initial={{ opacity: 0, x: -100,  }} // Initial opacity and position (left of the viewport)
+    animate={{
+      opacity: inView ? 1 : 0,
+      x: inView ? 0 : -200, // Animate from -100px (left) to 0px (center)
+    }}
+    
+    className="mx-auto w-full max-w-lg">
       <h1 className="text-4xl font-medium">Lets Connect</h1>
       <p className="mt-3"></p>
       <form action="https://api.web3forms.com/submit" className="mt-10">
-        {/* This is a working contact form. 
-   Get your free access key from: https://web3forms.com/  */}
+      
         <input
           type="hidden"
           name="access_key"
@@ -61,8 +81,15 @@ export default function ContactUs() {
           Send Message
         </button>
       </form>
-    </div>
+    </motion.div>
   </div>
+  <h2 className="flex flex-row flex-nowrap items-center my-6">
+            <span className="flex-grow block border-t border-black" />
+            <span className="flex-none block mx-4 px-4 py-2.5 text-xl rounded leading-none font-medium bg-black text-white">
+              {/* Heading Text */}
+            </span>
+            <span className="flex-grow block border-t border-black" />
+          </h2>
 </>
 
    </>
