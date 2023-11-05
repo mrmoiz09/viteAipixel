@@ -7,12 +7,13 @@ import SkillGraph from "./Home/ExertiseSkills/SkillGraph";
 import LeadingProjects from "./Home/LeadingProjects/LeadingProjects";
 import Status from "./Home/LeadingProjects/Status";
 import ReviewLogo from "./Home/Stats/ReviewLogo";
+import Cursor from "../Components/Cursor"
 
 export default function HomeStock() {
   return (
     <>
+<Cursor/>
     <Navbar/>
-
       <HeroMain />
       <HAboutus />
       <SkillGraph />

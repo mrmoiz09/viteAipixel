@@ -1,7 +1,7 @@
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import AboutA from "./About/Static/AboutA";
-
+import Cursor from "../Components/Cursor"
 // import AboutB from "./About/Static/OurVision";
 import Aboutstats from "./About/Static/Aboutstats";
 import OurVision from "./About/Static/OurVision";
@@ -9,7 +9,7 @@ import OurVision from "./About/Static/OurVision";
 export default function AboutStock() {
   return (
     <>
-
+<Cursor/>
 <Navbar/>
 
       <AboutA />
