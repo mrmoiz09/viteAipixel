@@ -5,7 +5,7 @@ import HAboutus from "./Home/AboutUSHome/HAboutus";
 import ContactUs from "./Home/ContactUs";
 import SkillGraph from "./Home/ExertiseSkills/SkillGraph";
 import LeadingProjects from "./Home/LeadingProjects/LeadingProjects";
-import Status from "./Home/LeadingProjects/Status";
+// import Status from "./Home/LeadingProjects/Status";
 import ReviewLogo from "./Home/Stats/ReviewLogo";
 import Cursor from "../Components/Cursor"
 
@@ -17,7 +17,7 @@ export default function HomeStock() {
       <HeroMain />
       <HAboutus />
       <SkillGraph />
-      <Status />
+      {/* <Status /> */}
       <LeadingProjects />
       <ReviewLogo />
       <ContactUs />

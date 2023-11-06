@@ -1,3 +1,5 @@
+import React, { useEffect } from 'react';
+
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import AboutA from "./About/Static/AboutA";
@@ -7,6 +9,9 @@ import Aboutstats from "./About/Static/Aboutstats";
 import OurVision from "./About/Static/OurVision";
 
 export default function AboutStock() {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
   return (
     <>
 <Cursor/>

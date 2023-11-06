@@ -69,14 +69,14 @@ export default function Navbar() {
           <div className="block w-full h-full md:h-auto">
             <ul className="space-y-8 tracking-wide font-medium md:flex md:space-y-0">
               <li>
-                <a href="" className="block md:px-3">
+                <Link to="/" className="block md:px-3">
                   <div
                     className="relative text-yellow-800 shark:text-yellow-300
                                               before:absolute before:-inset-2 before:w-full before:h-0.5 before:origin-left shark:before:bg-yelloe-500 before:mx-auto before:mt-auto before:rounded-full before:bg-yellow-800"
                   >
-                    <span>Solutions+</span>
+                    <span >Home</span>
                   </div>
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/ourwork" className="block md:px-3 group">
