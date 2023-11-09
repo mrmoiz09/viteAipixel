@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 // import { useInView } from "react-intersection-observer";
 // import ProjectScreens from "./ProjectScreens";
-import Seed from "./ProjectScreens/Seed";
-import Ino from "./ProjectScreens/Ino";
-import Dtech from "./ProjectScreens/Dtech";
-import Bucephalus from "./ProjectScreens/Bucephalus";
+// import Seed from "./ProjectScreens/Seed";
+// import Ino from "./ProjectScreens/Ino";
+// import Dtech from "./ProjectScreens/Dtech";
+// import Bucephalus from "./ProjectScreens/Bucephalus";
 import LetsConnect from "./LetsConnect";
 
 export default function Projects() {
@@ -73,19 +73,12 @@ export default function Projects() {
                         loading="lazy"
                       />
                     </div>
-                    <div>
-                      <div className="text-lg font-light flex flex-row items-center gap-1">
-                        view{" "}
-                        <span>
-                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nN2UX0oCURTGf5n2ZguJhHAfhQyBuYLagOAGEqX2ED2oO9LU6DWrB32wV28cuIKMc7jnztiLH3wwA+d83+X8g2PHGdACRsA78Os5BwZAE6jkFb8FPgAXoBgnMcKnwJNB2KXYB0oWg+cc4s6zZymLK8AN0NDEK76eriBnWuNbhuTLVM6VEieV2MPQYHCfyjlR4l6zDCzl+QSqBoNJlsE6IL4ALnzsecBgFWuw2BGv+f8HoK7EL2NK9JUS/zaUcpxlMFCC25Hiwpcsgzsl+A3oAD8Ru5D856JNgTIKkgOcimsC6BcweMSAkr+Km8iXd63neouGP1whcRmCG3Ki7A+X3BaZbdlQoXzLKErP1IYeB/4A2JQamp45TOQAAAAASUVORK5CYII=" />
-                        </span>{" "}
-                      </div>
-                    </div>
+                   
                   </div>
                 </div>
               </div>
             </motion.div>
-            <Seed />
+            {/* <Seed /> */}
 
             <motion.div
               // initial={{ opacity: 0, y: 50, filter: "blur(5px)" }}
@@ -129,18 +122,13 @@ export default function Projects() {
                       />
                     </div>
                     <div>
-                      <div className="text-lg font-light flex flex-row items-center gap-1 ">
-                        view{" "}
-                        <span>
-                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nN2UX0oCURTGf5n2ZguJhHAfhQyBuYLagOAGEqX2ED2oO9LU6DWrB32wV28cuIKMc7jnztiLH3wwA+d83+X8g2PHGdACRsA78Os5BwZAE6jkFb8FPgAXoBgnMcKnwJNB2KXYB0oWg+cc4s6zZymLK8AN0NDEK76eriBnWuNbhuTLVM6VEieV2MPQYHCfyjlR4l6zDCzl+QSqBoNJlsE6IL4ALnzsecBgFWuw2BGv+f8HoK7EL2NK9JUS/zaUcpxlMFCC25Hiwpcsgzsl+A3oAD8Ru5D856JNgTIKkgOcimsC6BcweMSAkr+Km8iXd63neouGP1whcRmCG3Ki7A+X3BaZbdlQoXzLKErP1IYeB/4A2JQamp45TOQAAAAASUVORK5CYII=" />
-                        </span>{" "}
-                      </div>
+                   
                     </div>
                   </div>
                 </div>
               </div>
             </motion.div>
-            <Ino />
+            {/* <Ino /> */}
 
             <motion.div
               // initial={{ opacity: 0, x: -100 }} // Initial opacity and position (left of the viewport)
@@ -169,8 +157,7 @@ export default function Projects() {
                         DTECH{" "}
                       </p>
                       <h2 className="max-w-2xl mt-3 text-[19px] font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-[19px] dak:text-white">
-                        Empowering Clients Globally with <br /> thier Products,
-                        Meticulously
+                      Elevating Dubai's professional networking game. Connecting experts, fostering opportunities, and powering success in the heart of the business world.
                       </h2>
                     </div>
 
@@ -187,20 +174,13 @@ export default function Projects() {
                         loading="lazy"
                       />
                     </div>
-                    <div>
-                      <div className="text-lg font-light flex flex-row items-center gap-1">
-                        view{" "}
-                        <span>
-                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nN2UX0oCURTGf5n2ZguJhHAfhQyBuYLagOAGEqX2ED2oO9LU6DWrB32wV28cuIKMc7jnztiLH3wwA+d83+X8g2PHGdACRsA78Os5BwZAE6jkFb8FPgAXoBgnMcKnwJNB2KXYB0oWg+cc4s6zZymLK8AN0NDEK76eriBnWuNbhuTLVM6VEieV2MPQYHCfyjlR4l6zDCzl+QSqBoNJlsE6IL4ALnzsecBgFWuw2BGv+f8HoK7EL2NK9JUS/zaUcpxlMFCC25Hiwpcsgzsl+A3oAD8Ru5D856JNgTIKkgOcimsC6BcweMSAkr+Km8iXd63neouGP1whcRmCG3Ki7A+X3BaZbdlQoXzLKErP1IYeB/4A2JQamp45TOQAAAAASUVORK5CYII=" />
-                        </span>{" "}
-                      </div>
-                    </div>
+                   
                   </div>
                 </div>
               </div>
             </motion.div>
 
-            <Dtech />
+            {/* <Dtech /> */}
 
             <motion.div
               // initial={{ opacity: 0, y: 50, filter: "blur(5px)" }}
@@ -230,8 +210,7 @@ export default function Projects() {
                     </p>
 
                     <h2 className="max-w-2xl mt-3 text-[19px] font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-[19px] dak:text-white">
-                      Empowering Clients Globally with <br /> thier Products,
-                      Meticulously
+                     Auction based platform for releated ancient Crafted products and coins
                     </h2>
                   </div>
 
@@ -244,19 +223,14 @@ export default function Projects() {
                       />
                     </div>
                     <div>
-                      <div className="text-lg font-light flex flex-row items-center gap-1 ">
-                        view{" "}
-                        <span>
-                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nN2UX0oCURTGf5n2ZguJhHAfhQyBuYLagOAGEqX2ED2oO9LU6DWrB32wV28cuIKMc7jnztiLH3wwA+d83+X8g2PHGdACRsA78Os5BwZAE6jkFb8FPgAXoBgnMcKnwJNB2KXYB0oWg+cc4s6zZymLK8AN0NDEK76eriBnWuNbhuTLVM6VEieV2MPQYHCfyjlR4l6zDCzl+QSqBoNJlsE6IL4ALnzsecBgFWuw2BGv+f8HoK7EL2NK9JUS/zaUcpxlMFCC25Hiwpcsgzsl+A3oAD8Ru5D856JNgTIKkgOcimsC6BcweMSAkr+Km8iXd63neouGP1whcRmCG3Ki7A+X3BaZbdlQoXzLKErP1IYeB/4A2JQamp45TOQAAAAASUVORK5CYII=" />
-                        </span>{" "}
-                      </div>
+                   
                     </div>
                   </div>
                 </div>
               </div>
             </motion.div>
 
-            <Bucephalus />
+            {/* <Bucephalus /> */}
 
             <motion.div
               //  initial={{ opacity: 0, y: 50, filter: "blur(5px)" }}
@@ -275,8 +249,7 @@ export default function Projects() {
                   </p>
 
                   <h2 className="max-w-2xl mt-4 text-[19px] font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-[19px] dak:text-white">
-                    Empowering Clients Globally with description of project here{" "}
-                    <br /> thier Products, Meticulously
+                  Your passport to thrilling experiences on the enchanting island of Ioman. Discover, explore, and embrace the magic of Ioman with us.
                   </h2>
                 </div>
 
@@ -289,12 +262,7 @@ export default function Projects() {
                     />
                   </div>
                   <div>
-                    <div className="text-lg font-light flex flex-row items-center gap-1 ">
-                      view{" "}
-                      <span>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nN2UX0oCURTGf5n2ZguJhHAfhQyBuYLagOAGEqX2ED2oO9LU6DWrB32wV28cuIKMc7jnztiLH3wwA+d83+X8g2PHGdACRsA78Os5BwZAE6jkFb8FPgAXoBgnMcKnwJNB2KXYB0oWg+cc4s6zZymLK8AN0NDEK76eriBnWuNbhuTLVM6VEieV2MPQYHCfyjlR4l6zDCzl+QSqBoNJlsE6IL4ALnzsecBgFWuw2BGv+f8HoK7EL2NK9JUS/zaUcpxlMFCC25Hiwpcsgzsl+A3oAD8Ru5D856JNgTIKkgOcimsC6BcweMSAkr+Km8iXd63neouGP1whcRmCG3Ki7A+X3BaZbdlQoXzLKErP1IYeB/4A2JQamp45TOQAAAAASUVORK5CYII=" />
-                      </span>{" "}
-                    </div>
+                 
                   </div>
                 </div>
               </div>

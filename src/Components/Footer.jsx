@@ -1,5 +1,5 @@
 
-import navlogo from "../assets/navlogo.png"
+// import navlogo from "../assets/navlogo.png"
 
 export default function Footer() {
   return (
@@ -10,13 +10,13 @@ export default function Footer() {
     <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8">
       <div className="lg:flex lg:items-center lg:justify-between">
         <div className="flex justify-center text-teal-600 sm:justify-start">
-        <img
+        {/* <img
                 src={navlogo}
                 className="w-36 grayscale contrast-200"
                 alt="aipixel logo"
                 width={144}
                 height={68}
-              />
+              /> */}
         </div>
       
       </div>

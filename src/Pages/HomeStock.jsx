@@ -19,7 +19,7 @@ export default function HomeStock() {
       <SkillGraph />
       {/* <Status /> */}
       <LeadingProjects />
-      <ReviewLogo />
+      {/* <ReviewLogo /> */}
       <ContactUs />
       <Footer/>
     </>

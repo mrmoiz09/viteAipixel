@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom"
-import navlogo from "../assets/navlogo.png"
+// import navlogo from "../assets/navlogo.png"
 // Link
 export default function Navbar() {
   return (
@@ -16,13 +16,19 @@ export default function Navbar() {
         />
         <div className="w-full flex justify-between md:w-max md:px-0">
           <Link to="/" aria-label="logo">
-            <img
+            {/* <img
               src={navlogo}
               className="w-[5rem] grayscale "
               alt="aipixel logo"
               width={144}
               height={68}
-            />
+            /> */}
+<p className="font-bold text-[30px] relative ml-5">
+
+أركان
+
+</p>
+
           </Link>
           <div className="flex items-center md:hidden max-h-10">
             <label
@@ -57,13 +63,13 @@ export default function Navbar() {
         >
           <div className="flex md:hidden w-full pb-5">
             <a href="#" aria-label="logo">
-              <img
+              {/* <img
                 src={navlogo}
                 className="w-36 grayscale contrast-200"
                 alt="aipixel logo"
                 width={144}
                 height={68}
-              />
+              /> */}
             </a>
           </div>
           <div className="block w-full h-full md:h-auto">

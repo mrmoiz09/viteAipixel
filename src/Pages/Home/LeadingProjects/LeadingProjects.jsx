@@ -51,8 +51,7 @@ export default function LeadingProjects() {
                         SEED
                       </p>
                       <h2 className="max-w-2xl mt-3 text-[19px] font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-[19px] dak:text-white">
-                        Empowering Clients Globally with <br /> thier Products,
-                        Meticulously
+                      Banking reinvented: Your financial future, our fintech platform
                       </h2>
                     </div>
 
@@ -71,10 +70,8 @@ export default function LeadingProjects() {
                     </div>
                     <div>
                       <div className="text-lg font-light flex flex-row items-center gap-1">
-                        view{" "}
-                        <span>
-                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nN2UX0oCURTGf5n2ZguJhHAfhQyBuYLagOAGEqX2ED2oO9LU6DWrB32wV28cuIKMc7jnztiLH3wwA+d83+X8g2PHGdACRsA78Os5BwZAE6jkFb8FPgAXoBgnMcKnwJNB2KXYB0oWg+cc4s6zZymLK8AN0NDEK76eriBnWuNbhuTLVM6VEieV2MPQYHCfyjlR4l6zDCzl+QSqBoNJlsE6IL4ALnzsecBgFWuw2BGv+f8HoK7EL2NK9JUS/zaUcpxlMFCC25Hiwpcsgzsl+A3oAD8Ru5D856JNgTIKkgOcimsC6BcweMSAkr+Km8iXd63neouGP1whcRmCG3Ki7A+X3BaZbdlQoXzLKErP1IYeB/4A2JQamp45TOQAAAAASUVORK5CYII=" />
-                        </span>{" "}
+                      
+                    
                       </div>
                     </div>
                   </div>
@@ -109,8 +106,7 @@ export default function LeadingProjects() {
                     </p>
 
                     <h2 className="max-w-2xl mt-3 text-[19px] font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-[19px] dak:text-white">
-                      Empowering Clients Globally with <br /> thier Products,
-                      Meticulously
+                    Your multipurpose marketplace for buyers, sellers, and resellers, connecting commerce in one unified platform.
                     </h2>
                   </div>
 
@@ -124,10 +120,8 @@ export default function LeadingProjects() {
                     </div>
                     <div>
                       <div className="text-lg font-light flex flex-row items-center gap-1 ">
-                        view{" "}
-                        <span>
-                          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nN2UX0oCURTGf5n2ZguJhHAfhQyBuYLagOAGEqX2ED2oO9LU6DWrB32wV28cuIKMc7jnztiLH3wwA+d83+X8g2PHGdACRsA78Os5BwZAE6jkFb8FPgAXoBgnMcKnwJNB2KXYB0oWg+cc4s6zZymLK8AN0NDEK76eriBnWuNbhuTLVM6VEieV2MPQYHCfyjlR4l6zDCzl+QSqBoNJlsE6IL4ALnzsecBgFWuw2BGv+f8HoK7EL2NK9JUS/zaUcpxlMFCC25Hiwpcsgzsl+A3oAD8Ru5D856JNgTIKkgOcimsC6BcweMSAkr+Km8iXd63neouGP1whcRmCG3Ki7A+X3BaZbdlQoXzLKErP1IYeB/4A2JQamp45TOQAAAAASUVORK5CYII=" />
-                        </span>{" "}
+                      
+                    
                       </div>
                     </div>
                   </div>
@@ -153,8 +147,7 @@ export default function LeadingProjects() {
                   </p>
 
                   <h2 className="max-w-2xl mt-4 text-[19px] font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-[19px] dak:text-white">
-                    Empowering Clients Globally with description of project here{" "}
-                    <br /> thier Products, Meticulously
+                  Your passport to thrilling experiences on the enchanting island of Ioman. Discover, explore, and embrace the magic of Ioman with us.
                   </h2>
                 </div>
 
@@ -168,10 +161,8 @@ export default function LeadingProjects() {
                   </div>
                   <div>
                     <div className="text-lg font-light flex flex-row items-center gap-1 ">
-                      view{" "}
-                      <span>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nN2UX0oCURTGf5n2ZguJhHAfhQyBuYLagOAGEqX2ED2oO9LU6DWrB32wV28cuIKMc7jnztiLH3wwA+d83+X8g2PHGdACRsA78Os5BwZAE6jkFb8FPgAXoBgnMcKnwJNB2KXYB0oWg+cc4s6zZymLK8AN0NDEK76eriBnWuNbhuTLVM6VEieV2MPQYHCfyjlR4l6zDCzl+QSqBoNJlsE6IL4ALnzsecBgFWuw2BGv+f8HoK7EL2NK9JUS/zaUcpxlMFCC25Hiwpcsgzsl+A3oAD8Ru5D856JNgTIKkgOcimsC6BcweMSAkr+Km8iXd63neouGP1whcRmCG3Ki7A+X3BaZbdlQoXzLKErP1IYeB/4A2JQamp45TOQAAAAASUVORK5CYII=" />
-                      </span>{" "}
+                    
+                  
                     </div>
                   </div>
                 </div>

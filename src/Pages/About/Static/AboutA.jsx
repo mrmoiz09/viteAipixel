@@ -66,7 +66,7 @@ export default function AboutA() {
                     />
                     <span className="inline-flex items-center justify-center h-8 w-8 rounded-full ring-2 ring-white bg-gray-800 shark:bg-gray-900 shark:ring-gray-800">
                       <span className="text-xs font-medium leading-none text-white uppercase">
-                        7k+
+                        100+
                       </span>
                     </span>
                   </div>

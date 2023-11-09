@@ -30,7 +30,7 @@ export default function AboutStock() {
         <span className="flex-none block mx-4 px-4 py-2.5 text-xl rounded leading-none font-medium bg-black text-white"></span>
         <span className="flex-grow block border-t border-black" />
       </h2>
-      <Aboutstats />
+      {/* <Aboutstats /> */}
       <Footer/>
     </>
   );
