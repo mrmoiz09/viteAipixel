@@ -1,0 +1,46 @@
+.a_b {
+  position: relative;
+  background-color: #4158d0;
+  /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+  background-image: linear-gradient(135deg, #ffa8a8 10%, #fcff00 100%);
+  overflow: hidden; /* Ensures the pseudo-element animation doesn't overflow */
+}
+.a_c {
+  background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+}
+.a_d {
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+.a_e {
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgba(5,8,114,1) 0%, rgba(7,3,53,1) 97.5% );
+}
+.a_f {
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+}
+
+.a_b::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.057) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  pointer-events: none;
+  animation: glossyAnimation 2s infinite linear;
+}
+
+@keyframes glossyAnimation {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}

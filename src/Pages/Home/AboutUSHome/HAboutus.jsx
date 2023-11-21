@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
+import a from "../../../assets/gifs/a.gif"
+import b from "../../../assets/gifs/b.gif"
+import c from "../../../assets/gifs/c.gif"
 export default function HAboutus() {
   const [ref, inView] = useInView({
     threshold: 0.2, 
@@ -29,7 +32,7 @@ export default function HAboutus() {
           </h2>
          
           <p className="mb-4 font-medium tracking-tight text-gray-400 xl:mb-6">
-          "At AIPIXEL, we specialize in bringing your innovative dreams to digital life. Our experienced team is dedicated to crafting custom software solutions that turn your vision into a successful reality.
+          "At Arkan , we specialize in bringing your innovative dreams to digital life. Our experienced team is dedicated to crafting custom software solutions that turn your vision into a successful reality.
           </p>
 
           <span className="f-center float-right">
@@ -136,7 +139,7 @@ export default function HAboutus() {
     </div>
   </div>
   {/* grid sction  */}
-  <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left" ref={ref}>
+  <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left p-4" ref={ref}>
   <motion.div className="relative"
       initial={{ opacity: 0, x: -100 }} // Initial opacity and position (left of the viewport)
       animate={{
@@ -196,7 +199,7 @@ export default function HAboutus() {
   // width={64}
   // height={64}
   className='h-[5.5rem]'
-  src="https://i.pinimg.com/originals/49/84/c0/4984c0ac41b13002de2873e622efa63c.gif"
+  src={a}
   alt="external-Teamwork-software-development-icongeek26-glyph-icongeek26"
 />
 
@@ -223,7 +226,7 @@ export default function HAboutus() {
   transition={{ duration: 0.9, ease: 'easeOut' }}
   className="overflow-hidden bg-white shadow-md rounded-xl ">
     <div className="p-9">
-      <img src="https://i.pinimg.com/originals/00/6b/27/006b2787627b0b67bb91d9716d6e5058.gif" className='h-[5.5rem] rounded-md' alt="" />
+      <img src={b} className='h-[5.5rem] rounded-md' alt="" />
 
 
 
@@ -253,7 +256,7 @@ export default function HAboutus() {
   // width={64}
   // height={64}
   className='h-[5.5rem]'
-  src="https://i.pinimg.com/originals/c6/34/78/c634786383032dc04dfb30d835cf8650.gif"
+  src={c}
   alt="external-Teamwork-software-development-icongeek26-glyph-icongeek26"
 />
 

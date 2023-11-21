@@ -1,7 +1,7 @@
 import ServiceSkills from "./ServiceSkills";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import d from "../../../assets/gifs/d.gif";
 export default function SkillGraph() {
   const [refs, inViews] = useInView({
     threshold: 0.2,
@@ -17,7 +17,7 @@ export default function SkillGraph() {
             <div className="md:5/12 lg:w-1/2">
               <img
                 className="rounded-[50px]"
-                src="https://i.pinimg.com/originals/e9/ab/41/e9ab41560bbdf9157a3e05124e807463.gif"
+                src={d}
                 alt="image"
                 loading="lazy"
                 width=""
@@ -29,9 +29,9 @@ export default function SkillGraph() {
                 OUR development is carried out by passionate developers
               </h2>
               <p className="my-8 text-gray-600 shark:text-gray-300">
-                Nobis minus voluptatibus pariatur dignissimos libero quaerat
-                iure expedita at? Asperiores nemo possimus nesciunt dicta veniam
-                aspernatur quam mollitia.
+                We will assemble for you a dedicated team of experts, who will
+                focus exclusively on your project and on building an app that
+                fully reflects your needs.
               </p>
               <div
                 className="divide-y space-y-4 divide-gray-100 shark:divide-gray-800"
@@ -69,13 +69,22 @@ export default function SkillGraph() {
                         clipRule="evenodd"
                       />
                     </svg> */}
+
+                    <img
+                      width="100"
+                      height="100"
+                      src="https://img.icons8.com/clouds/100/technology.png"
+                      alt="technology"
+                    />
                   </motion.div>
                   <div className="w-5/6">
                     <h4 className="font-semibold text-lg text-gray-700 shark:text-indigo-300">
-                    Cutting-Edge Technology
+                      Cutting-Edge Technology
                     </h4>
                     <p className="text-gray-500 shark:text-gray-400">
-                    We don't just follow technology trends; we lead them. Our commitment to innovation drives us to explore new horizons in software development
+                      We don't just follow technology trends; we lead them. Our
+                      commitment to innovation drives us to explore new horizons
+                      in software development
                     </p>
                   </div>
                 </motion.div>
@@ -90,6 +99,12 @@ export default function SkillGraph() {
                   className="pt-4 flex gap-4 md:items-center"
                 >
                   <div className="w-12 h-12 flex gap-4 rounded-full bg-teal-100 shark:bg-teal-900/20">
+                    <img
+                      width="80"
+                      height="80"
+                      src="https://img.icons8.com/dotty/80/project-management.png"
+                      alt="project-management"
+                    />
                     {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -105,10 +120,12 @@ export default function SkillGraph() {
                   </div>
                   <div className="w-5/6">
                     <h4 className="font-semibold text-lg text-gray-700 shark:text-teal-300">
-                    Scalable Solutions
+                      Scalable Solutions
                     </h4>
                     <p className="text-gray-500 shark:text-gray-400">
-                    We understand that your needs can evolve over time, which is why we pride ourselves on offering scalable solutions that grow with your business.
+                      We understand that your needs can evolve over time, which
+                      is why we pride ourselves on offering scalable solutions
+                      that grow with your business.
                     </p>
                   </div>
                 </motion.div>

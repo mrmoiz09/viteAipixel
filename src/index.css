@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
+/* html {
     --cursor-color: #333
   }
   
   html.shark-mode {
     --cursor-color: #fff
-  }
+  } */

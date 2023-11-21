@@ -37,7 +37,7 @@ export default function Hero() {
               Built in <br /> Your Way but with our Expert Approach
             </motion.h1>
           ) : (
-            <h1 className="text-4xl font-bold md:text-6xl shark:text-white">
+            <h1 className="  text-4xl font-bold md:text-6xl shark:text-white">
               Built in <br /> Your Way but with our Expert Approach
             </h1>
           )}

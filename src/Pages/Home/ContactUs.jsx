@@ -83,9 +83,9 @@ export default function ContactUs() {
       </form>
     </motion.div>
   </div>
-  <h2 className="flex flex-row flex-nowrap items-center my-6">
+  <h2 className="flex flex-row flex-nowrap items-center mt-6">
             <span className="flex-grow block border-t border-black" />
-            <span className="flex-none block mx-4 px-4 py-2.5 text-xl rounded leading-none font-medium bg-black text-white">
+            <span className="flex-none block mx-4 px-4 pt-2.5 text-xl rounded leading-none font-medium bg-black text-white">
               {/* Heading Text */}
             </span>
             <span className="flex-grow block border-t border-black" />
